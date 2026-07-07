@@ -48,7 +48,17 @@ Once the application is running, you can explore the API endpoints via Swagger U
 Make sure that you register an account from the Authentication endpoint, then copy the accessToken string from the response body and paste it into the green Authorize button at the top right of the page (with the padlock icon) to login.
 
 ### 4. Clean up
-Once you're done with the application, you can clean up your system by running the following command in the terminal.
+Once you're done with the application, you can clean up your system by running the following commands in the terminal.
 ```bash
 docker compose down -v
+cd ../..
+
+# On Linux/macOs/Git Bash:
+rm -rf Luftborn_SongPlayer
+
+# On Windows (Command Prompt):
+rmdir /s /q Luftborn_SongPlayer
+
+# On Windows (PowerShell):
+Remove-Item -Recurse -Force Luftborn_SongPlayer
 ```
