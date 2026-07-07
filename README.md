@@ -39,7 +39,7 @@ Run the following command in the terminal.
 ```bash
 docker compose up --build
 ```
-Please wait about 5 seconds after running the command. Since the Docker container and backend service need a moment to initialize.
+Please wait about 5 seconds after the command has finished running. Since the Docker container and backend service need a moment to initialize.
 
 Once the application is running, you can explore the API endpoints via Swagger UI:
 
